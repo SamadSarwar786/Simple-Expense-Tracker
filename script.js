@@ -35,6 +35,8 @@ function addTransaction(e) {
 
     transactions.push(transaction);
 
+    
+
     addTransactionDOM(transaction);
 
     updateValues();
@@ -118,3 +120,5 @@ function init() {
 init();
 
 form.addEventListener('submit', addTransaction);
+
+
