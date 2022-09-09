@@ -91,7 +91,7 @@ label {
 }
 
 input[type='text'],
-input[type='number'] {
+input[type='number'] ,input[type ='date']{
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
@@ -113,10 +113,7 @@ input[type='number'] {
   width: 100%;
 }
 
-.btn:focus,
-.delete-btn:focus {
-  outline: 0;
-}
+
 
 .list {
   list-style-type: none;
@@ -162,4 +159,10 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+#dateContainer{
+  display: none;
+}
+
+
 
